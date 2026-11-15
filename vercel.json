@@ -1,17 +1,4 @@
 {
   "version": 2,
-  "builds": [
-    { "src": "server.js", "use": "@vercel/node" },
-    { "src": "index.html", "use": "@vercel/static" },
-    { "src": "manifest.webmanifest", "use": "@vercel/static" },
-    { "src": "icon.svg", "use": "@vercel/static" },
-    { "src": "icon-maskable.svg", "use": "@vercel/static" },
-    { "src": "openvpn-page.html", "use": "@vercel/static" },
-    { "src": "sample.ovpn", "use": "@vercel/static" },
-    { "src": "data/**", "use": "@vercel/static" }
-  ],
-  "routes": [
-    { "src": "/api/(.*)", "dest": "server.js" },
-    { "src": "/(.*)", "dest": "/$1" }
-  ]
+  "cleanUrls": true
 }
