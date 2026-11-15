@@ -1,0 +1,11 @@
+{
+  "name": "corgi-vpn",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Corgi VPN: app web gratuita para descubrir servidores VPN públicos de VPN Gate y descargar configuraciones OpenVPN reales.",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node scripts/dev-server.js",
+    "dev": "node scripts/dev-server.js"
+  }
+}
